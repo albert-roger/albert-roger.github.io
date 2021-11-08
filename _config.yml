@@ -16,8 +16,11 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "albert.pdf", title: "Home Change", icon: home}
+  - {file: "index.htlm", title: "Albert Roger"}
   - {file: "README.md", title: "About me"}
+  - {file: "albert.pdf", title: "CV"}
+  - {title: "ZEW Website", url:"https://www.zew.de/en/team/arr"}
+
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:albert.roger.figuerola@gmail.com"}
