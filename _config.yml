@@ -18,7 +18,7 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.htlm", title: "Albert Roger"}
   - {file: "README.md", title: "About me"}
-  - {file: "albert.pdf", title: "CV"}
+  - {file: "/albert.pdf", title: "CV"}
   - {title: "ZEW Website", url:"https://www.zew.de/en/team/arr"}
 
 
@@ -26,6 +26,8 @@ external:                  # shows a footer with social links - for available ic
   - {title: Mail, icon: envelope, url: "mailto:albert.roger.figuerola@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/albert-roger"}
   - {title: Twitter, icon: twitter, url: "https://twitter.com/Albert_RogerF"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/albert-roger-3a802118/"}
+
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
