@@ -4,4 +4,4 @@ mathjax: true
 layout: post
 categories: media
 ---
-Link to paper soon available.
+Link to paper coming soon.
