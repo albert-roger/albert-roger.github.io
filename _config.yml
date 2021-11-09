@@ -1,4 +1,4 @@
-#title: "Albert Roger"
+title: "Albert Roger"
 author: "Albert Roger"
 description: "University of Heidelberg"
 permalink: /:title/
@@ -16,7 +16,7 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {url: "https://albert-roger.github.io/", title: "Albert Roger"}
+  - {url: "https://albert-roger.github.io/", title: "Home"}
   - {file: "research.md", title: "Research"}
   - {url: "https://www.dropbox.com/s/pck9w7ounsi9x01/CVeng.pdf?dl=0", title: "CV"}
   #- {file: "projects.md", title: "Projects" }
