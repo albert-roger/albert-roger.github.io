@@ -4,4 +4,5 @@ title:
 ---
 ![](/assets/Albert_Roger.jpg)
 
-I am a PhD student at the Chair of Environmental Economics of the Alfred-Weber-Institut for Economics at the Heidelberg University.
+I am currently a PhD student at the Alfred-Weber-Institut for Economics of the Heidelberg University. 
+
