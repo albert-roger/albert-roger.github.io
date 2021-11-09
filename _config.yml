@@ -16,7 +16,8 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {url: "https://albert-roger.github.io/", title: " ![](https://www.dropbox.com/s/f0123mdah63lckz/Albert_Roger.jpg?dl=0)"}
+  - {title: "![](/assets/Albert_Roger.jpg)"}
+  - {title: "![](https://www.dropbox.com/s/f0123mdah63lckz/Albert_Roger.jpg?dl=0)"}
   - {url: "https://albert-roger.github.io/", title: "Albert Roger"}
  
   - {file: "research.md", title: "Research"}
