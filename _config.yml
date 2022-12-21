@@ -1,6 +1,6 @@
 title: "Albert Roger"
 author: "Albert Roger"
-description: "Heidelberg University"
+description: "Max Planck Institute for Innovation and Competition"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -28,7 +28,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Github, icon: github, url: "https://github.com/albert-roger"}
   - {title: Twitter, icon: twitter, url: "https://twitter.com/Albert_RogerF"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/albert-roger-3a802118/"}
-  - {title: ZEW, url: "https://www.zew.de/en/team/arr/"}
+  - {title: Max Planck Institute for Innovation and Competition, url: "https://www.ip.mpg.de/en/persons/roger-albert.html"}
 
 
 comments:
