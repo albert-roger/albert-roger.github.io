@@ -28,7 +28,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Github, icon: github, url: "https://github.com/albert-roger"}
   - {title: Twitter, icon: twitter, url: "https://twitter.com/Albert_RogerF"}
   - {title: Mastodon, icon: mastodon, url: "https://econtwitter.net/@Albert_RogerF"}
-  - {title: BlueSky, icon: bluesky, url: "https://bsky.app/profile/albertroger.bsky.social"}
+  #- {title: BlueSky, icon: bluesky, url: "https://bsky.app/profile/albertroger.bsky.social"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/albert-roger-3a802118/"}
   - {title: Max Planck Institute for Innovation and Competition, url: "https://www.ip.mpg.de/en/persons/roger-albert.html"}
 
