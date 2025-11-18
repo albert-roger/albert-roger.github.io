@@ -95,11 +95,11 @@ title: "Research"
     
     <div class="research-section">
       {% if category_name == 'Environment' %}
-      <h2> {{ category_name }} 🌍</h2>
+      <h2> {{ category_name }} </h2>
       {% elsif category_name == 'Energy' %}
-      <h2> {{ category_name }} 💡</h2>
+      <h2> {{ category_name }} </h2>
       {% elsif category_name == 'Biotechnology' %}
-      <h2> {{ category_name }} 🔬</h2>
+      <h2> {{ category_name }} </h2>
       {% endif %}
       
       {% assign posts_in_area = 0 %}
