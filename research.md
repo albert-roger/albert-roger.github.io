@@ -63,6 +63,15 @@ title: "Research"
   margin-bottom: 12px;
 }
 
+.research-excerpt a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.research-excerpt a:hover {
+  text-decoration: underline;
+}
+
 .read-more {
   display: inline-block;
   color: #0366d6;
@@ -119,7 +128,7 @@ title: "Research"
             <div class="research-date"><strong>Date:</strong> {{ post.date | date: "%B %Y" }}</div>
             {% if post.excerpt %}
             <div class="research-excerpt">
-              {{ post.excerpt | strip_html | truncatewords: 40 }}
+              {{ post.excerpt | truncatewords: 40 }}
             </div>
             <a href="{{ post.url | relative_url }}" class="read-more">Read More →</a>
             {% endif %}
