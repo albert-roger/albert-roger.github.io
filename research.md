@@ -103,7 +103,7 @@ title: "Research"
       {% endif %}
       
       {% assign posts_in_area = 0 %}
-      {% for post in site.posts reversed %}
+      {% for post in site.posts %}
         {% if post.research_area == cat %}
           {% assign posts_in_area = posts_in_area | plus: 1 %}
           <div class="research-item">
