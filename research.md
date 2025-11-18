@@ -97,9 +97,9 @@ title: "Research"
       {% if category_name == 'Environment' %}
       <h2> Environment, Chemistry, IP & Economics </h2>
       {% elsif category_name == 'Energy' %}
-      <h2> Energy </h2>
+      <h2> Energy Systems & Energy Economics </h2>
       {% elsif category_name == 'Biotechnology' %}
-      <h2> Biotechnology </h2>
+      <h2> Biotechnology & Bioprocess Engineering </h2>
       {% endif %}
       
       {% assign posts_in_area = 0 %}
