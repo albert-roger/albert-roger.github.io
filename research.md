@@ -91,16 +91,16 @@ title: "Research"
   
   {% assign categories = "environment,energy,biotechnology" | split: "," %}
   {% for cat in categories %}
-    {% assign category_name = cat | capitalize %}
-    
+    {% assign category_name = ""  %}
+
     <div class="research-section">
-      {% if category_name == 'environment' %}
-      <h2> {"Environment, Chemistry, IP & Economics" } </h2>
-      {% elsif category_name == 'energy' %}
-      <h2> {{ category_name }} </h2>
-      {% elsif category_name == 'biotechnology' %}
-      <h2> {{ category_name }} </h2>
-      {% endif %}
+    {% if cat == "environment" %}
+      {% assign category_name = "Environment, Chemistry, IP & Economics" %}
+    {% elsif cat == "energy" %}
+      {% assign category_name = "Energy Systems & Energy Economics" %}
+    {% elsif cat == "biotechnology" %}
+      {% assign category_name = "Biotechnology & Bioprocess Engineering" %}
+  {% endif %}
       
       {% assign posts_in_area = 0 %}
       {% for post in site.posts %}
