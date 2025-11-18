@@ -3,9 +3,12 @@ layout: default
 title: "Research"
 ---
 
+<div class="wrapper">
+<div class="post-content">
+
 # Research Overview
 
-My work focuses on the intersection of engineering and economics, with specific interests across three major areas of innovation and sustainability: Environment, Energy, and Biotechnology.
+
 
 ---
 
@@ -29,7 +32,7 @@ My work focuses on the intersection of engineering and economics, with specific 
   {% for post in site.posts reversed %}
     {% if post.research_area == cat %}
       {% assign posts_in_area = posts_in_area | plus: 1 %}
-
+      
 ### [{{ post.title }}]({{ post.url | relative_url }})
 **Date:** {{ post.date | date: "%B %Y" }}
 
@@ -48,3 +51,6 @@ My work focuses on the intersection of engineering and economics, with specific 
 
 ---
 {% endfor %}
+
+</div>
+</div>
