@@ -94,11 +94,11 @@ title: "Research"
     {% assign category_name = cat | capitalize %}
     
     <div class="research-section">
-      {% if category_name == 'Environment' %}
+      {% if category_name == 'Environment, IP, Chemistry & Economics' %}
       <h2> {{ category_name }} </h2>
-      {% elsif category_name == 'Energy' %}
+      {% elsif category_name == 'Energy Systems & Energy Economics' %}
       <h2> {{ category_name }} </h2>
-      {% elsif category_name == 'Biotechnology' %}
+      {% elsif category_name == 'Biotechnology & Bioprocess Engineering' %}
       <h2> {{ category_name }} </h2>
       {% endif %}
       
