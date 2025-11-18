@@ -1,5 +1,5 @@
 ---
-title: "“Producción de ácido poli-g-glutamico (PGA) mediante fermentación con sustrato sólido y Bacillus Licheniformis”. (2010) Poster. Congreso de Microbiologia Industrial y Biotecnologia Microbiana. Co-authors: Tagliavini, A., and Bou, J. J."
+title: "“Producción de ácido poli-g-glutámico (PGA) mediante fermentación con sustrato sólido y Bacillus Licheniformis”. (2010) Poster. Congreso de Microbiologia Industrial y Biotecnologia Microbiana. Co-authors: Tagliavini, A., and Bou, J. J."
 mathjax: true
 layout: post
 categories: research
