@@ -3,12 +3,20 @@ layout: default
 title: "Research"
 ---
 
-<div class="wrapper">
-<div class="post-content">
+<style>
+  /* This CSS block creates a centered reading area with a comfortable width */
+  #custom-research-content {
+    max-width: 900px; /* Sets a maximum width for readability */
+    margin: 0 auto;  /* Centers the entire content block */
+    padding: 0 20px; /* Adds padding on the sides for smaller screens */
+  }
+</style>
+
+<div id="custom-research-content">
 
 # Research Overview
 
-
+My work focuses on the intersection of engineering and economics, with specific interests across three major areas of innovation and sustainability: Environment, Energy, and Biotechnology.
 
 ---
 
@@ -52,5 +60,4 @@ title: "Research"
 ---
 {% endfor %}
 
-</div>
 </div>
