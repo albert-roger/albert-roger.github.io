@@ -5,7 +5,7 @@ title: "Research"
 
 # Research Overview
 
-My work focuses on the intersection of engineering and economics, with specific interests across three major areas of innovation and sustainability: Environment, Energy, and Biotechnology.
+
 
 ---
 
