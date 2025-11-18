@@ -1,5 +1,5 @@
 ---
-title: "“Optimizing long-term investments for a sustainable development of the ASEAN power system”.(2015) Energy, 88, 180-193. Co-authors: Huber, M., Hamacher, T."
+title: "“Optimizing long-term investments for a sustainable development of the ASEAN power system”. (2015) Energy, 88, 180-193. Co-authors: Huber, M., Hamacher, T."
 mathjax: true
 layout: post
 categories: research
