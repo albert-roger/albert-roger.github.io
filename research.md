@@ -95,11 +95,11 @@ title: "Research"
     
     <div class="research-section">
       {% if category_name == 'Environment' %}
-      <h2> {{ category_name }} 🌍</h2>
+      <h2>1. {{ category_name }} 🌍</h2>
       {% elsif category_name == 'Energy' %}
-      <h2> {{ category_name }} 💡</h2>
+      <h2>2. {{ category_name }} 💡</h2>
       {% elsif category_name == 'Biotechnology' %}
-      <h2> {{ category_name }} 🔬</h2>
+      <h2>3. {{ category_name }} 🔬</h2>
       {% endif %}
       
       {% assign posts_in_area = 0 %}
@@ -111,7 +111,7 @@ title: "Research"
             <div class="research-date"><strong>Date:</strong> {{ post.date | date: "%B %Y" }}</div>
             {% if post.excerpt %}
             <div class="research-excerpt">
-              {{ post.excerpt | remove: 'Download' | truncatewords: 40 }}
+              {{ post.excerpt | strip_html | remove: 'Download' | truncatewords: 40 }}
             </div>
             <a href="{{ post.url | relative_url }}" class="read-more">Read More →</a>
             {% endif %}
