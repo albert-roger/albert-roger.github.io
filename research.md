@@ -95,7 +95,7 @@ title: "Research"
     
     <div class="research-section">
       {% if category_name == 'environment' %}
-      <h2> {% assign category_name = "Environment, Chemistry, IP & Economics" %} </h2>
+      <h2> {"Environment, Chemistry, IP & Economics" } </h2>
       {% elsif category_name == 'energy' %}
       <h2> {{ category_name }} </h2>
       {% elsif category_name == 'biotechnology' %}
