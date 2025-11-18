@@ -18,10 +18,7 @@ title: "Research"
   
   {% if category_name == 'Environment' %}
    1. {{ category_name }} 🌍
-  {% elsif category_name == 'Energy' %}
-   2. {{ category_name }} 💡
-  {% elsif category_name == 'Biotechnology' %}
-   3. {{ category_name }} 🔬
+ 
   {% endif %}
   
   {% assign filtered_posts = research_posts | where: "research_area", cat %}
