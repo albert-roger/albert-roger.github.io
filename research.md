@@ -91,7 +91,7 @@ title: "Research"
   
   {% assign categories = "environment,energy,biotechnology" | split: "," %}
   {% for cat in categories %}
-    {% assign category_name = "" | capitalize %}
+    {% assign category_name = cat | capitalize %}
     
     <div class="research-section">
       {% if category_name == 'environment' %}
