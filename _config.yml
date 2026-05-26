@@ -18,7 +18,7 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {url: "https://albert-roger.github.io/", title: "Home"}
   - {file: "research.md", title: "Research"}
-  - {url: "https://www.dropbox.com/scl/fi/6yiors0uy7zxbbwpld99l/rogercv.pdf?rlkey=8urpzzww0tr678hvtk4mizpq5&st=otqx67o2&dl=0", title: "CV"}
+  #- {url: "https://www.dropbox.com/scl/fi/6yiors0uy7zxbbwpld99l/rogercv.pdf?rlkey=8urpzzww0tr678hvtk4mizpq5&st=otqx67o2&dl=0", title: "CV"}
   #- {file: "projects.md", title: "Projects" }
 
 
@@ -26,11 +26,11 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:albert.roger.figuerola@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/albert-roger"}
-  - {title: Twitter, icon: twitter, url: "https://twitter.com/Albert_RogerF"}
+  #- {title: Twitter, icon: twitter, url: "https://twitter.com/Albert_RogerF"}
   #- {title: BlueSky, icon: bluesky, url: "https://bsky.app/profile/albertroger.bsky.social"}
-  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/albert-roger-3a802118/"}
-  - {title: Max Planck Institute, url: "https://www.ip.mpg.de/en/persons/roger-albert.html"}
-  - {title: ZEW , url: "https://www.zew.de/en/"}
+  #- {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/albert-roger-3a802118/"}
+  #- {title: Max Planck Institute, url: "https://www.ip.mpg.de/en/persons/roger-albert.html"}
+  #- {title: ZEW , url: "https://www.zew.de/en/"}
   - {title: Heidelberg University , url: "https://www.uni-heidelberg.de/en"}
   - {title: TUM , url: "https://www.tum.de/"}
 
