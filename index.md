@@ -14,4 +14,4 @@ title:
 - Biochemical & environmental engineering
 - Sustainable energy systems
 
-**Chemical Engineering — Universitat Politècnica de Catalunya (UPC)**
+**Degree Chemical Engineering — Universitat Politècnica de Catalunya (UPC)**
